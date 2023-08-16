@@ -1,0 +1,31 @@
+body {
+    background-color:#FFFFFF;
+}
+
+.Timer {
+    font-size: 30px;
+    letter-spacing:5px;
+    padding:0 0 20px 20px;
+}
+
+button {
+    padding:10px;
+    background-color:#EEEEEE;
+    border:1px solid black;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color:#DDDDDD;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+button:disabled {
+    background-color:#EEEEEE;
+    opacity: 0.6;
+    border-color:#AAAAAA;
+}
